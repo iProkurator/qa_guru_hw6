@@ -4,7 +4,6 @@ import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
 import guru.qa.pages.RegistrationFormPage;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -12,13 +11,10 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static java.lang.String.format;
 
 @DisplayName("Параметризированные тесты")
 public class RegFormParamTests {
